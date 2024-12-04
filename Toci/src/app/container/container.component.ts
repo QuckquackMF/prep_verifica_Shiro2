@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './container.component.css'
 })
 export class ContainerComponent {
-
+  macchine: string[];
+  constructor(){
+    this.macchine = ["Ruspa", "Autocarro", "Gru", "Furgone"]
+  }
 }
